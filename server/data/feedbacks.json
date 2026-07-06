@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "fb_1",
+    "customerId": "cust_1",
+    "rating": 5,
+    "comment": "Outstanding support security patch setup. Very thorough response.",
+    "createdAt": "2026-07-01T17:00:57.385Z",
+    "updatedAt": "2026-07-01T17:00:57.385Z"
+  },
+  {
+    "_id": "fb_2",
+    "customerId": "cust_4",
+    "rating": 4,
+    "comment": "Excellent secure locks, but response delays need optimization.",
+    "createdAt": "2026-07-04T17:00:57.385Z",
+    "updatedAt": "2026-07-04T17:00:57.385Z"
+  },
+  {
+    "_id": "fb_3",
+    "customerId": "cust_3",
+    "rating": 5,
+    "comment": "Super fast billing resolution. Helpful agent support!",
+    "createdAt": "2026-07-06T17:00:57.385Z",
+    "updatedAt": "2026-07-06T17:00:57.385Z"
+  }
+]

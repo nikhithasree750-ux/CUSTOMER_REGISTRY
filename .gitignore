@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production/Build
+dist/
+**/dist/
+build/
+**/build/
+
+# Local Environment Secrets
+.env
+**/server/.env
+
+# Logs and system files
+*.log
+**/logs/
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
