@@ -148,7 +148,7 @@ const Dashboard = () => {
         <div className="flex gap-2">
           <button 
             onClick={() => navigate('/tickets')}
-            className="px-4 py-2 bg-indigo-650 hover:bg-indigo-600 font-semibold text-xs rounded-xl shadow shadow-indigo-650/20 flex items-center gap-1.5 transition"
+            className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 font-semibold text-xs rounded-xl shadow shadow-indigo-600/20 flex items-center gap-1.5 transition"
           >
             Review Ticket Desk
             <ArrowRight size={13} />

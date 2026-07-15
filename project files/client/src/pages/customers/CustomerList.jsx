@@ -231,7 +231,7 @@ const CustomerList = () => {
         <div className="flex gap-3 w-full sm:w-auto">
           <button
             onClick={handleExportCSV}
-            className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-800 font-semibold text-xs text-slate-650 dark:text-slate-350 shadow-sm transition"
+            className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-800 font-semibold text-xs text-slate-600 dark:text-slate-350 shadow-sm transition"
           >
             <Download size={14} />
             Export CSV
@@ -412,7 +412,7 @@ const CustomerList = () => {
                       </td>
 
                       {/* Company */}
-                      <td className="px-6 py-4 text-sm text-slate-650 dark:text-slate-355 font-medium">
+                      <td className="px-6 py-4 text-sm text-slate-600 dark:text-slate-355 font-medium">
                         <div className="flex items-center gap-1.5">
                           <Briefcase size={14} className="text-slate-400" />
                           {cust.company || 'Self-Employed'}
@@ -451,7 +451,7 @@ const CustomerList = () => {
                         <div className="flex items-center justify-center gap-1 opacity-80 group-hover:opacity-100 transition">
                           <button
                             onClick={(e) => handleEditClick(cust, e)}
-                            className="p-1.5 rounded-lg text-slate-500 hover:text-indigo-650 dark:text-slate-400 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition"
+                            className="p-1.5 rounded-lg text-slate-500 hover:text-indigo-600 dark:text-slate-400 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition"
                             title="Edit profile"
                           >
                             <Edit3 size={15} />
@@ -579,7 +579,7 @@ const CustomerList = () => {
       {selectedIds.length > 0 && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 border border-slate-800 text-white px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-6 z-40 animate-bounce duration-[3000ms] backdrop-blur max-w-lg w-11/12 sm:w-auto">
           <div className="flex items-center gap-2">
-            <span className="h-5 w-5 bg-indigo-650 text-indigo-200 flex items-center justify-center font-bold text-xs rounded-full">
+            <span className="h-5 w-5 bg-indigo-600 text-indigo-200 flex items-center justify-center font-bold text-xs rounded-full">
               {selectedIds.length}
             </span>
             <span className="text-xs font-bold tracking-wide text-slate-350">Selected</span>

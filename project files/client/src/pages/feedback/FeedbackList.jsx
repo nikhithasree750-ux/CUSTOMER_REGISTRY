@@ -242,7 +242,7 @@ const FeedbackList = () => {
           <button
             type="submit"
             disabled={submitting}
-            className="w-full py-2.5 bg-indigo-650 hover:bg-indigo-600 text-white font-semibold text-xs rounded-xl shadow shadow-indigo-600/10 flex items-center justify-center gap-1.5 transition disabled:opacity-50"
+            className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs rounded-xl shadow shadow-indigo-600/10 flex items-center justify-center gap-1.5 transition disabled:opacity-50"
           >
             {submitting ? <Loader2 size={13} className="animate-spin" /> : <Plus size={13} />}
             Submit Review

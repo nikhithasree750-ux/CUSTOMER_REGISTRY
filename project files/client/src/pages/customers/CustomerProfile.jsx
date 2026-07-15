@@ -215,7 +215,7 @@ const CustomerProfile = ({ isOpen, onClose, customerId, onUpdate }) => {
                   className={`py-3 px-4 capitalize border-b-2 -mb-px transition
                     ${activeTab === tab 
                       ? 'border-indigo-600 text-indigo-600 dark:text-indigo-400 font-extrabold' 
-                      : 'border-transparent text-slate-400 hover:text-slate-650 dark:hover:text-slate-300'
+                      : 'border-transparent text-slate-400 hover:text-slate-600 dark:hover:text-slate-300'
                     }`}
                 >
                   {tab}
@@ -289,7 +289,7 @@ const CustomerProfile = ({ isOpen, onClose, customerId, onUpdate }) => {
                           <button
                             type="submit"
                             disabled={addingNote || !newNote.trim()}
-                            className="px-3 py-2 bg-indigo-650 hover:bg-indigo-600 text-white rounded-xl flex items-center justify-center transition disabled:opacity-50"
+                            className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl flex items-center justify-center transition disabled:opacity-50"
                           >
                             {addingNote ? <Loader2 size={13} className="animate-spin" /> : <Plus size={14} />}
                           </button>
@@ -370,7 +370,7 @@ const CustomerProfile = ({ isOpen, onClose, customerId, onUpdate }) => {
                               className="p-4 border border-slate-200 dark:border-slate-800 rounded-2xl bg-white dark:bg-slate-900 shadow-sm space-y-3"
                             >
                               <div className="flex justify-between items-center">
-                                <span className="text-xs font-bold text-indigo-650 dark:text-indigo-400">{t.ticketId}</span>
+                                <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">{t.ticketId}</span>
                                 <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold border capitalize
                                   ${t.status === 'Open' ? 'bg-indigo-50 text-indigo-700 border-indigo-200' : ''}
                                   ${t.status === 'In Progress' ? 'bg-amber-50 text-amber-700 border-amber-200' : ''}
@@ -379,7 +379,7 @@ const CustomerProfile = ({ isOpen, onClose, customerId, onUpdate }) => {
                                   {t.status}
                                 </span>
                               </div>
-                              <p className="text-xs text-slate-650 dark:text-slate-350 font-medium leading-relaxed">
+                              <p className="text-xs text-slate-600 dark:text-slate-355 font-medium leading-relaxed">
                                 {t.description}
                               </p>
                               <div className="pt-2 border-t border-slate-50 dark:border-slate-800/40 flex justify-between items-center text-[10px] text-slate-450 dark:text-slate-500 font-semibold">

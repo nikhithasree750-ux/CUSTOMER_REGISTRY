@@ -1,28 +1,8 @@
-# Dependencies
-node_modules/
-**/node_modules/
-
-# Production/Build
-dist/
-**/dist/
-build/
-**/build/
-
-# Local Environment Secrets
-.env
-**/server/.env
-
-# Logs and system files
-*.log
-**/logs/
-.DS_Store
-Thumbs.db
-
-# IDEs and Editors
+# Root GitIgnore for restructured SalesFlow CRM
+project files/client/node_modules/
+project files/client/dist/
+project files/server/node_modules/
+project files/server/.env
 .idea/
 .vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.log

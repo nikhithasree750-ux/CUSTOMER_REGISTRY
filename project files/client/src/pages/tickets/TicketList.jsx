@@ -2,13 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { api } from '../../services/api';
 import { useAuth } from '../../context/AuthContext';
-import { motion, AnimatePresence } from "framer-motion";
 import { 
   Search, Plus, Ticket, HelpCircle, 
   AlertTriangle, CheckCircle2, User, Clock, 
   Paperclip, Send, Loader2, Calendar, FileText, ArrowRight, X, ChevronRight
 } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const PRIORITY_BADGES = {
   Critical: 'bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/20 dark:text-rose-400 dark:border-rose-900/50',
@@ -321,7 +321,7 @@ const TicketList = () => {
                 <div>
                   {/* Card Header info */}
                   <div className="flex justify-between items-center mb-3">
-                    <span className="text-xs font-bold text-indigo-650 dark:text-indigo-400">
+                    <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">
                       {t.ticketId}
                     </span>
                     <span className={`text-[9px] px-2 py-0.5 rounded-full font-bold border capitalize ${PRIORITY_BADGES[t.priority]}`}>
@@ -358,7 +358,7 @@ const TicketList = () => {
             <p className="text-xs text-slate-400">Create your first support ticket to track resolution deadlines and agents workloads.</p>
             <button 
               onClick={() => setCreateOpen(true)}
-              className="px-4 py-2 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-950/30 dark:hover:bg-indigo-950/50 border border-indigo-150 text-indigo-650 dark:text-indigo-400 text-xs font-semibold rounded-xl transition"
+              className="px-4 py-2 bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-950/30 dark:hover:bg-indigo-950/50 border border-indigo-150 text-indigo-600 dark:text-indigo-400 text-xs font-semibold rounded-xl transition"
             >
               File Support Ticket
             </button>
@@ -437,7 +437,7 @@ const TicketList = () => {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-indigo-650 hover:bg-indigo-600 text-white rounded-xl font-semibold shadow"
+                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-semibold shadow"
                 >
                   File Ticket
                 </button>
@@ -515,7 +515,7 @@ const TicketList = () => {
                           onClick={() => handleStatusStepClick(step)}
                           className={`flex items-center gap-1 text-[10px] font-bold px-2 py-1.5 rounded-lg border transition whitespace-nowrap
                             ${isCurrent ? 'bg-indigo-600 border-indigo-600 text-white shadow' : ''}
-                            ${!isCurrent && isPassed ? 'bg-indigo-50 border-indigo-200 text-indigo-650 dark:bg-indigo-950/20 dark:border-indigo-900/40 dark:text-indigo-400' : ''}
+                            ${!isCurrent && isPassed ? 'bg-indigo-50 border-indigo-200 text-indigo-600 dark:bg-indigo-950/20 dark:border-indigo-900/40 dark:text-indigo-400' : ''}
                             ${!isCurrent && !isPassed ? 'border-slate-200 dark:border-slate-800 text-slate-400' : ''}
                           `}
                         >
@@ -571,7 +571,7 @@ const TicketList = () => {
                     <h4 className="text-xs font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider">File Attachments</h4>
                     <button 
                       onClick={handleAttachFile}
-                      className="text-[10px] text-indigo-650 dark:text-indigo-400 hover:text-indigo-500 flex items-center gap-1 font-bold"
+                      className="text-[10px] text-indigo-600 dark:text-indigo-400 hover:text-indigo-500 flex items-center gap-1 font-bold"
                     >
                       <Paperclip size={11} />
                       Attach mock file
@@ -611,7 +611,7 @@ const TicketList = () => {
                     <button
                       type="submit"
                       disabled={savingComment || !commentText.trim()}
-                      className="p-2 bg-indigo-650 hover:bg-indigo-600 text-white rounded-xl flex items-center justify-center transition disabled:opacity-50"
+                      className="p-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl flex items-center justify-center transition disabled:opacity-50"
                     >
                       {savingComment ? <Loader2 size={14} className="animate-spin" /> : <Send size={14} />}
                     </button>

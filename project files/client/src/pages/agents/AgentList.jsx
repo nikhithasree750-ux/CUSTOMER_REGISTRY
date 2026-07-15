@@ -164,7 +164,7 @@ const AgentList = () => {
                         <select
                           value={agent.status}
                           onChange={(e) => handleStatusChange(agent._id, e.target.value)}
-                          className="px-2.5 py-1 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-850 rounded-lg text-[10px] font-semibold text-slate-650 dark:text-slate-300"
+                          className="px-2.5 py-1 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-850 rounded-lg text-[10px] font-semibold text-slate-600 dark:text-slate-300"
                         >
                           <option value="Active">Active</option>
                           <option value="On Break">On Break</option>
@@ -270,7 +270,7 @@ const AgentList = () => {
             <button
               type="submit"
               disabled={addingAgent}
-              className="w-full py-2.5 bg-indigo-650 hover:bg-indigo-600 text-white font-semibold text-xs rounded-xl shadow shadow-indigo-600/10 flex items-center justify-center gap-1 transition disabled:opacity-50"
+              className="w-full py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs rounded-xl shadow shadow-indigo-600/10 flex items-center justify-center gap-1 transition disabled:opacity-50"
             >
               {addingAgent ? <Loader2 size={13} className="animate-spin" /> : <Plus size={13} />}
               Hire Support Agent
