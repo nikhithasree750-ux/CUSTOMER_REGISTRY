@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "agent_1",
+    "name": "Rahul Kumar",
+    "email": "rahul.kumar@crm.io",
+    "phone": "+1 (555) 014-4455",
+    "specialty": "Billing & Subscriptions",
+    "status": "Active",
+    "createdAt": "2026-07-17T17:08:59.641Z",
+    "updatedAt": "2026-07-17T17:08:59.641Z"
+  },
+  {
+    "_id": "agent_2",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@crm.io",
+    "phone": "+1 (555) 017-7788",
+    "specialty": "Technical Support",
+    "status": "Active",
+    "createdAt": "2026-07-17T17:08:59.641Z",
+    "updatedAt": "2026-07-17T17:08:59.641Z"
+  },
+  {
+    "_id": "agent_3",
+    "name": "Anil Mehta",
+    "email": "anil.mehta@crm.io",
+    "phone": "+1 (555) 018-8822",
+    "specialty": "Enterprise Accounts",
+    "status": "Active",
+    "createdAt": "2026-07-17T17:08:59.641Z",
+    "updatedAt": "2026-07-17T17:08:59.641Z"
+  }
+]
