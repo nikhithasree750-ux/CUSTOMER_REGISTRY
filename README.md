@@ -1,6 +1,6 @@
-# SalesFlow CRM
+# Customer Registry
 
-Full-Stack Customer Relationship & Support Desk Control Console built with the MERN Stack.
+Full-Stack Customer Relationship & Support Desk Control Console built with MERN Stack.
 
 ## Repository Structure
 
