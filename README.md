@@ -2,6 +2,25 @@
 
 Full-Stack Customer Relationship & Support Desk Control Console built with MERN Stack.
 
+## About the Project
+
+**Customer Registry** is a comprehensive CRM (Customer Relationship Management) and support desk solution designed to streamline customer interactions and manage support tickets efficiently. This full-stack application provides a centralized platform for:
+
+- **Customer Management**: Maintain detailed customer profiles and relationship history
+- **Ticket Management**: Create, track, and resolve customer support tickets
+- **Agent Management**: Manage support agents and their performance metrics
+- **Feedback System**: Collect and analyze customer feedback
+- **Analytics Dashboard**: Visualize key metrics and customer insights
+- **User Authentication**: Secure login and role-based access control
+
+### Key Features
+- 📊 Real-time analytics and reporting
+- 🎯 Ticket tracking and resolution workflow
+- 👥 Multi-user support with role-based permissions
+- 📈 Performance metrics and dashboards
+- 💬 Customer feedback management
+- 🔐 Secure authentication system
+
 ## Repository Structure
 
 This repository is organized as follows:
