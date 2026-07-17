@@ -5,9 +5,11 @@ Full-Stack Customer Relationship & Support Desk Control Console built with the M
 ## Repository Structure
 
 This repository is organized as follows:
-*   `document/`: Contains the complete, formatted project documentation (`PROJECT_REPORT_FINAL.docx` and `PROJECT_REPORT_FINAL.pdf`).
-*   `project files/`: Contains the full-stack MERN source code for the client and server.
-*   `demo video/`: Reserved directory for the application walkthrough video.
+*   `client/`: React-based frontend application with Vite build tool.
+*   `server/`: Node.js/Express backend server with REST API endpoints.
+*   `Project Documentation/`: Contains project reports and documentation.
+*   `Phase Wise Templates/`: Contains templates and documentation from different project phases.
+*   `Video/`: Reserved directory for demo videos and walkthrough content.
 
 ---
 
@@ -18,6 +20,17 @@ This repository is organized as follows:
 *   MongoDB (Local server or Atlas cloud connection)
 
 ### Running the Application
-Detailed instructions are located in the `project files/` folder and in the documentation.
-1.  **Backend Server**: Navigate to `project files/server/` and run `npm start`.
-2.  **Frontend Client**: Navigate to `project files/client/` and run `npm run dev`.
+
+#### Backend Server
+Navigate to the `server/` directory and run:
+```bash
+npm install
+npm start
+```
+
+#### Frontend Client
+Navigate to the `client/` directory and run:
+```bash
+npm install
+npm run dev
+```
