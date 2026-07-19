@@ -1,8 +1,8 @@
-# Root GitIgnore for restructured SalesFlow CRM
-project files/client/node_modules/
-project files/client/dist/
-project files/server/node_modules/
-project files/server/.env
+# Root GitIgnore for restructured Customer Registry CRM
+client/node_modules/
+client/dist/
+server/node_modules/
+server/.env
 .idea/
 .vscode/
 *.log

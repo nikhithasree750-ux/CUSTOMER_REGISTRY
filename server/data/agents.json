@@ -6,8 +6,8 @@
     "phone": "+1 (555) 014-4455",
     "specialty": "Billing & Subscriptions",
     "status": "Active",
-    "createdAt": "2026-07-17T17:08:59.641Z",
-    "updatedAt": "2026-07-17T17:08:59.641Z"
+    "createdAt": "2026-06-28T22:23:37.000Z",
+    "updatedAt": "2026-06-28T22:23:37.000Z"
   },
   {
     "_id": "agent_2",
@@ -16,8 +16,8 @@
     "phone": "+1 (555) 017-7788",
     "specialty": "Technical Support",
     "status": "Active",
-    "createdAt": "2026-07-17T17:08:59.641Z",
-    "updatedAt": "2026-07-17T17:08:59.641Z"
+    "createdAt": "2026-06-28T22:23:37.000Z",
+    "updatedAt": "2026-06-28T22:23:37.000Z"
   },
   {
     "_id": "agent_3",
@@ -26,7 +26,7 @@
     "phone": "+1 (555) 018-8822",
     "specialty": "Enterprise Accounts",
     "status": "Active",
-    "createdAt": "2026-07-17T17:08:59.641Z",
-    "updatedAt": "2026-07-17T17:08:59.641Z"
+    "createdAt": "2026-06-28T22:23:37.000Z",
+    "updatedAt": "2026-06-28T22:23:37.000Z"
   }
 ]

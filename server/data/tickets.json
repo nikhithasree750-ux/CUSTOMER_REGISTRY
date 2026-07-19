@@ -11,37 +11,37 @@
       {
         "author": "Sarah Connor",
         "text": "I keep getting authorization errors on node-7.",
-        "createdAt": "2026-07-17T17:08:59.642Z"
+        "createdAt": "2026-07-16T22:23:37.000Z"
       },
       {
         "author": "Priya Sharma",
         "text": "I am running configuration patches on the main gateway now.",
-        "createdAt": "2026-07-17T17:23:59.642Z"
+        "createdAt": "2026-07-17T22:23:37.000Z"
       }
     ],
     "timeline": [
       {
         "event": "Ticket Created",
-        "timestamp": "2026-07-17T17:08:59.642Z"
+        "timestamp": "2026-07-16T22:23:37.000Z"
       },
       {
         "event": "Assigned to Priya Sharma",
-        "timestamp": "2026-07-17T17:13:59.642Z"
+        "timestamp": "2026-07-16T22:23:37.000Z"
       },
       {
         "event": "Patches deployed",
-        "timestamp": "2026-07-17T17:23:59.642Z"
+        "timestamp": "2026-07-17T22:23:37.000Z"
       }
     ],
     "attachments": [
       {
         "filename": "error_log.txt",
-        "url": "/files/error_log.txt"
+        "url": "#"
       }
     ],
-    "dueDate": "2026-07-17T21:08:59.642Z",
-    "createdAt": "2026-07-17T17:08:59.642Z",
-    "updatedAt": "2026-07-17T17:08:59.642Z"
+    "dueDate": "2026-07-19T02:23:37.000Z",
+    "createdAt": "2026-07-16T22:23:37.000Z",
+    "updatedAt": "2026-07-17T22:23:37.000Z"
   },
   {
     "_id": "tkt_2",
@@ -55,13 +55,13 @@
     "timeline": [
       {
         "event": "Ticket Created",
-        "timestamp": "2026-07-17T17:08:59.642Z"
+        "timestamp": "2026-07-17T22:23:37.000Z"
       }
     ],
     "attachments": [],
-    "dueDate": "2026-07-18T17:08:59.642Z",
-    "createdAt": "2026-07-17T17:08:59.642Z",
-    "updatedAt": "2026-07-17T17:08:59.642Z"
+    "dueDate": "2026-07-19T22:23:37.000Z",
+    "createdAt": "2026-07-17T22:23:37.000Z",
+    "updatedAt": "2026-07-17T22:23:37.000Z"
   },
   {
     "_id": "tkt_3",
@@ -75,26 +75,26 @@
       {
         "author": "Rahul Kumar",
         "text": "Corrected invoice item mismatch. Peter confirmed resolved.",
-        "createdAt": "2026-07-17T17:08:59.642Z"
+        "createdAt": "2026-07-17T22:23:37.000Z"
       }
     ],
     "timeline": [
       {
         "event": "Ticket Created",
-        "timestamp": "2026-07-17T17:08:59.642Z"
+        "timestamp": "2026-07-15T22:23:37.000Z"
       },
       {
         "event": "Assigned to Rahul Kumar",
-        "timestamp": "2026-07-17T17:08:59.642Z"
+        "timestamp": "2026-07-15T22:23:37.000Z"
       },
       {
         "event": "Status changed to Resolved",
-        "timestamp": "2026-07-17T17:08:59.642Z"
+        "timestamp": "2026-07-17T22:23:37.000Z"
       }
     ],
     "attachments": [],
-    "dueDate": "2026-07-20T17:08:59.642Z",
-    "createdAt": "2026-07-17T17:08:59.642Z",
-    "updatedAt": "2026-07-17T17:08:59.642Z"
+    "dueDate": "2026-07-18T18:47:37.000Z",
+    "createdAt": "2026-07-15T22:23:37.000Z",
+    "updatedAt": "2026-07-17T22:23:37.000Z"
   }
 ]

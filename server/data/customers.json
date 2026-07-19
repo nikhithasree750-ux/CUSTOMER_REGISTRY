@@ -1,0 +1,193 @@
+[
+  {
+    "_id": "cust_1",
+    "name": "Sarah Connor",
+    "email": "sarah.connor@cyberdyne.io",
+    "phone": "+1 (555) 019-9281",
+    "company": "Cyberdyne Systems",
+    "status": "Active",
+    "ltv": 12500.5,
+    "notes": "Key stakeholder. Interested in AI security systems.",
+    "notesList": [
+      {
+        "id": "n1",
+        "author": "Administrator",
+        "text": "Key stakeholder. Interested in AI security systems.",
+        "createdAt": "2026-07-03T22:23:37.000Z"
+      },
+      {
+        "id": "n2",
+        "author": "Priya Sharma",
+        "text": "Requested specialized training schedule details.",
+        "createdAt": "2026-07-08T22:23:37.000Z"
+      }
+    ],
+    "purchaseHistory": [
+      {
+        "id": "p1",
+        "item": "Tactical Support System",
+        "price": 12000,
+        "date": "2026-06-03T22:23:37.000Z"
+      },
+      {
+        "id": "p2",
+        "item": "Climate Storage Units",
+        "price": 500.5,
+        "date": "2026-06-28T22:23:37.000Z"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "i1",
+        "type": "Call",
+        "summary": "Discussed AI gate authorization patches.",
+        "date": "2026-07-03T22:23:37.000Z"
+      },
+      {
+        "id": "i2",
+        "type": "Meeting",
+        "summary": "Reviewed climate lockers specs.",
+        "date": "2026-07-08T22:23:37.000Z"
+      }
+    ],
+    "createdAt": "2026-05-29T22:23:37.000Z",
+    "updatedAt": "2026-07-08T22:23:37.000Z"
+  },
+  {
+    "_id": "cust_2",
+    "name": "John Connor",
+    "email": "john.connor@resistance.net",
+    "phone": "+1 (555) 014-9988",
+    "company": "Tech Resistance",
+    "status": "Active",
+    "ltv": 8500,
+    "notes": "High potential. Prefers encrypted communications.",
+    "notesList": [
+      {
+        "id": "n3",
+        "author": "Administrator",
+        "text": "High potential. Prefers encrypted communications.",
+        "createdAt": "2026-07-06T22:23:37.000Z"
+      }
+    ],
+    "purchaseHistory": [
+      {
+        "id": "p3",
+        "item": "Encryption License Suite",
+        "price": 8500,
+        "date": "2026-06-23T22:23:37.000Z"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "i3",
+        "type": "Email",
+        "summary": "Sent details about license tokens.",
+        "date": "2026-07-06T22:23:37.000Z"
+      }
+    ],
+    "createdAt": "2026-06-08T22:23:37.000Z",
+    "updatedAt": "2026-07-06T22:23:37.000Z"
+  },
+  {
+    "_id": "cust_3",
+    "name": "Peter Parker",
+    "email": "peter.parker@dailybugle.com",
+    "phone": "+1 (555) 012-3456",
+    "company": "Daily Bugle",
+    "status": "Lead",
+    "ltv": 150,
+    "notes": "Freelance photographer. Inquired about camera equipment insurance.",
+    "notesList": [
+      {
+        "id": "n4",
+        "author": "Rahul Kumar",
+        "text": "Freelance photographer. Inquired about camera equipment insurance.",
+        "createdAt": "2026-07-10T22:23:37.000Z"
+      }
+    ],
+    "purchaseHistory": [
+      {
+        "id": "p4",
+        "item": "Camera Equipment Insurance",
+        "price": 150,
+        "date": "2026-07-10T22:23:37.000Z"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "i4",
+        "type": "Call",
+        "summary": "Inquired about camera equipment insurance quotes.",
+        "date": "2026-07-10T22:23:37.000Z"
+      }
+    ],
+    "createdAt": "2026-06-18T22:23:37.000Z",
+    "updatedAt": "2026-07-10T22:23:37.000Z"
+  },
+  {
+    "_id": "cust_4",
+    "name": "Bruce Wayne",
+    "email": "bwayne@wayneenterprises.com",
+    "phone": "+1 (555) 007-1939",
+    "company": "Wayne Enterprises",
+    "status": "Active",
+    "ltv": 150000,
+    "notes": "VIP Customer. Requested custom black armored logistics solutions.",
+    "notesList": [
+      {
+        "id": "n5",
+        "author": "Administrator",
+        "text": "VIP Customer. Requested custom black armored logistics solutions.",
+        "createdAt": "2026-07-13T22:23:37.000Z"
+      }
+    ],
+    "purchaseHistory": [
+      {
+        "id": "p5",
+        "item": "Armored Logistics Container",
+        "price": 150000,
+        "date": "2026-07-13T22:23:37.000Z"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "i5",
+        "type": "Meeting",
+        "summary": "Discussed armored logistics requirements.",
+        "date": "2026-07-13T22:23:37.000Z"
+      }
+    ],
+    "createdAt": "2026-06-18T22:23:37.000Z",
+    "updatedAt": "2026-07-13T22:23:37.000Z"
+  },
+  {
+    "_id": "cust_5",
+    "name": "Clark Kent",
+    "email": "ckent@dailyplanet.press",
+    "phone": "+1 (555) 011-8822",
+    "company": "Daily Planet",
+    "status": "Inactive",
+    "ltv": 0,
+    "notes": "Account suspended. Relocated to Metropolis north branch.",
+    "notesList": [
+      {
+        "id": "n6",
+        "author": "Rahul Kumar",
+        "text": "Account suspended. Relocated to Metropolis north branch.",
+        "createdAt": "2026-07-14T22:23:37.000Z"
+      }
+    ],
+    "purchaseHistory": [],
+    "interactions": [
+      {
+        "id": "i6",
+        "type": "Email",
+        "summary": "Suspended notification email dispatched.",
+        "date": "2026-07-14T22:23:37.000Z"
+      }
+    ],
+    "createdAt": "2026-06-28T22:23:37.000Z",
+    "updatedAt": "2026-07-14T22:23:37.000Z"
+  }
+]
